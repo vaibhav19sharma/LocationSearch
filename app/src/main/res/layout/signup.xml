@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nature" >
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="5dp"
+            android:hint="Enter Name"
+            android:background="@drawable/edittextstyle"
+            android:inputType="text"
+
+
+            android:singleLine="true"
+            android:ems="15"
+            android:padding="15dip"
+            android:maxLength="20"
+            android:gravity="center"  />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp">
+
+        <EditText
+            android:id="@+id/u_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:hint="Enter Username"
+            android:background="@drawable/edittextstyle"
+            android:inputType="textEmailAddress"
+
+            android:singleLine="true"
+            android:ems="15"
+            android:padding="15dip"
+            android:maxLength="30"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp">
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:background="@drawable/edittextstyle"
+
+            android:singleLine="true"
+            android:ems="15"
+            android:padding="15dip"
+            android:maxLength="20"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp">
+
+        <EditText
+            android:id="@+id/confirmpass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:hint="Enter Confirm Password"
+            android:inputType="textPassword"
+            android:background="@drawable/edittextstyle"
+
+            android:singleLine="true"
+            android:ems="15"
+            android:padding="15dip"
+            android:maxLength="20"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp">
+
+        <EditText
+            android:id="@+id/mobNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+
+            android:layout_marginLeft="5dp"
+            android:hint="Enter Mobile no"
+            android:inputType="phone"
+            android:background="@drawable/edittextstyle"
+            android:singleLine="true"
+            android:ems="15"
+            android:padding="15dip"
+            android:maxLength="10"
+            android:gravity="center"    />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:hint="Enter Email id"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittextstyle"
+            android:singleLine="true"
+            android:ems="15"
+            android:padding="15dip"
+            android:gravity="center"    />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:text="Save"
+        android:ems="15"
+        android:padding="15dip"
+
+        android:background="@drawable/buttonstyle"
+        android:textColor="#F0F0F0" />
+
+</LinearLayout>
